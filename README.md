@@ -16,8 +16,8 @@ New-Item .env -ItemType File
 
 ## Add the following content to your .env file:
 
--- APP_NAME=Laravel
--- APP_ENV=local
+APP_NAME=Laravel
+APP_ENV=local
 APP_KEY=
 APP_DEBUG=true
 APP_URL=http://localhost
