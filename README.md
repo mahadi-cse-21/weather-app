@@ -33,24 +33,24 @@ CACHE_DRIVER=array
 
 php artisan key:generate
 
-# Go to https://www.weatherapi.com/, create an account, log in, and copy your API key. Paste it into your .env file:
+## Go to https://www.weatherapi.com/, create an account, log in, and copy your API key. Paste it into your .env file:
 
 VTE_WEATHER_API_KEY=[your-api-key]
 
-# Optimize the Laravel application:
+## Optimize the Laravel application:
 
 php artisan optimize
 
-# Build frontend assets:
+## Build frontend assets:
 
 npm run build
 
-# Start the development servers:( run in individual terminal)
+## Start the development servers:( run in individual terminal)
 
 npm run dev
 php artisan serve
 
-# The app should now be accessible at http://localhost:8000.
+## The app should now be accessible at http://localhost:8000.
 
 ## Contact
 
