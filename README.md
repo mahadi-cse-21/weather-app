@@ -9,13 +9,14 @@ Before starting, make sure you have installed PHP (>= 8.0), Composer, Node.js (>
 ## Installation and Setup
 
 Run the following commands in your local terminal:
-
+```
 composer install
 npm install
 New-Item .env -ItemType File
+```
 
 ## Add the following content to your .env file:
-
+```
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=
@@ -28,28 +29,35 @@ DB_DATABASE=:memory:
 
 SESSION_DRIVER=array
 CACHE_DRIVER=array
-
+```
 ## Generate the application key:
-
+```
 php artisan key:generate
+```
 
 ## Go to https://www.weatherapi.com/, create an account, log in, and copy your API key. Paste it into your .env file:
-
+```
 VTE_WEATHER_API_KEY=[your-api-key]
+```
 
 ## Optimize the Laravel application:
-
+```
 php artisan optimize
 
-## Build frontend assets:
+```
 
+## Build frontend assets:
+```
 npm run build
+```
 
 ## Start the development servers:( run in individual terminal)
-
+```
 npm run dev
+```
+```
 php artisan serve
-
+```
 ## The app should now be accessible at http://localhost:8000.
 
 ## Contact
